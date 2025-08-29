@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Fitness App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏋️ Simple Fitness Tracker</h1>
+
+  <div class="workout-form">
+    <input type="text" id="exercise" placeholder="Exercise name">
+    <input type="number" id="minutes" placeholder="Minutes">
+    <button onclick="addWorkout()">Add Workout</button>
+  </div>
+
+  <h2>Your Workouts</h2>
+  <ul id="workout-list"></ul>
+
+  <h3 id="total-time">Total Time: 0 minutes</h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
